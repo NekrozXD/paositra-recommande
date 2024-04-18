@@ -1,0 +1,14 @@
+.beneficiaire td,
+ .beneficiaire th {
+    height: 50px;
+    border-bottom: 1px solid grey;
+
+}
+
+.beneficiaire{
+    padding: 5px;
+    background-color: var(--secondary-color);
+    color: var(--base-text-color);
+    box-shadow: var(--light-shadow1)
+}
+

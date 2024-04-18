@@ -1,0 +1,69 @@
+.user td , .uset th{
+    height: 75px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid grey;
+
+}
+
+/* user.css */
+
+.user {
+    background-color: var(--background-color); 
+    color: var(--base-text-color); 
+  }
+  
+
+
+.c-button {
+    background: var(--button-blue-color);
+    border-radius: 45px;
+    font-size: 16px;
+    text-align: left;
+    padding: 11px 0px 11px 0px;
+    border-style: outset;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    justify-content: flex-end;
+    
+  }
+  
+  .c-button .c-main {
+    border-radius: 45px;
+    color: rgba(255, 255, 255, 1);
+    padding: 11px 25px 11px 2px;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid transparent;
+  }
+  
+  .c-ico .c-blur {
+    background: var(--secondary-color);
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 8px 23px;
+    filter: blur(1px);
+    text-align: center;
+  }
+  
+  .c-ico {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .c-ico .ico-text {
+    position: absolute;
+    left: 50%;
+    color:var(--base-text-color);
+    top: 40%;
+    font-size: 25px;
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Hovering */
+  
+  .c-button .c-main:hover { 
+    color: rgba(255, 255, 255, 0.5);
+  }

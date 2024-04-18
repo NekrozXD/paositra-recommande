@@ -1,0 +1,42 @@
+.agence{
+    td , th {
+        border-bottom: 1px solid grey;
+        height: 50px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+
+    button {
+        padding: 15px;
+        border-radius: 4px;
+        margin: 5px;
+    }
+    .Ajouter{
+        background-color: var(--button-blue-color);
+        color: white;  
+    }
+
+    .edit {
+        background-color: var(--button-blue-color);
+        color: white;
+    }
+    .delete {
+        background-color: #e31722;
+        color: white;
+    }
+    input {
+        width: 90%;
+        height: 50px;
+        text-align: center;
+        margin: 5px;
+        border-radius: 4px;
+    }
+
+    div{
+        padding: 10px 10px;
+    }
+}

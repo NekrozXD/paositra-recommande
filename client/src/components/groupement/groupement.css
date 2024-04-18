@@ -1,0 +1,8 @@
+.groupement td, .groupement th {
+    border-bottom: 1px solid grey;
+    height: 70px;
+}
+.groupement{
+    background-color: var(---color); 
+    color: var(--base-text-color); 
+}
